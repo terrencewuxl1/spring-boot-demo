@@ -69,6 +69,7 @@
     <module>spring-boot-demo-elasticsearch-rest-high-level-client</module>
     <module>spring-boot-demo-https</module>
     <module>spring-boot-demo-flyway</module>
+    <module>spring-boot-jms</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -88,19 +89,19 @@
     <user.agent.version>1.20</user.agent.version>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>aliyun</id>
-      <name>aliyun</name>
-      <url>https://maven.aliyun.com/repository/public</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
+<!--  <repositories>-->
+<!--    <repository>-->
+<!--      <id>aliyun</id>-->
+<!--      <name>aliyun</name>-->
+<!--      <url>https://maven.aliyun.com/repository/public</url>-->
+<!--      <releases>-->
+<!--        <enabled>true</enabled>-->
+<!--      </releases>-->
+<!--      <snapshots>-->
+<!--        <enabled>false</enabled>-->
+<!--      </snapshots>-->
+<!--    </repository>-->
+<!--  </repositories>-->
 
   <dependencyManagement>
     <dependencies>
